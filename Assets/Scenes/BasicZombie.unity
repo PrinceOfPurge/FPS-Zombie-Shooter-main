@@ -2639,6 +2639,13 @@ MonoBehaviour:
       Data3: -662415455
       Data4: 1535557208
     Path: event:/SFX/Zombie/Zombies
+  <ZombieDeath>k__BackingField:
+    Guid:
+      Data1: 1415708420
+      Data2: 1153504965
+      Data3: -1113148495
+      Data4: 1743425197
+    Path: event:/SFX/Zombie/ZombieDeath
 --- !u!1 &247912730
 GameObject:
   m_ObjectHideFlags: 0

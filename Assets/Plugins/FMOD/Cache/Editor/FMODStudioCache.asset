@@ -145,7 +145,7 @@ MonoBehaviour:
   Path: sfx/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638685835749056709
+  lastModified: 638686693361767276
   FileSizes:
   - Name: Desktop
     Value: 1486
@@ -233,12 +233,13 @@ MonoBehaviour:
   - {fileID: 7197448688297192026}
   - {fileID: -1185048219197484346}
   - {fileID: -395838607088695401}
+  - {fileID: 1019107888059960442}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1275346724990048968}
   StringsBanks:
   - {fileID: 508080015526947630}
-  cacheTime: 638685835749540642
+  cacheTime: 638686693362800820
   cacheVersion: 131620
 --- !u!114 &326964435189808088
 MonoBehaviour:
@@ -281,11 +282,38 @@ MonoBehaviour:
   Path: sfx/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638685835749076783
+  lastModified: 638686693361777329
   FileSizes:
   - Name: Desktop
-    Value: 1556
+    Value: 1604
   Exists: 1
+--- !u!114 &1019107888059960442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Zombie/ZombieDeath
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Zombie/ZombieDeath
+  Guid:
+    Data1: 1415708420
+    Data2: 1153504965
+    Data3: -1113148495
+    Data4: 1743425197
+  Banks:
+  - {fileID: 4419871098267783168}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1456697986479950317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +353,10 @@ MonoBehaviour:
   Path: sfx/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638685835749540642
+  lastModified: 638686693362800820
   FileSizes:
   - Name: Desktop
-    Value: 136768
+    Value: 150784
   Exists: 1
 --- !u!114 &5972108907290112075
 MonoBehaviour:

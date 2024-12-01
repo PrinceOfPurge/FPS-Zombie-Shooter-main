@@ -42,6 +42,7 @@ public class Zombie : MonoBehaviour
             spawner.GetComponent<Spawner>().dead(gameObject);
             Destroy(gameObject);
             emitter.Stop();
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.ZombieDeath, this.transform.position);
         }
 
         if (Vector3.Distance(player.transform.position, gameObject.transform.position) < followDist)
